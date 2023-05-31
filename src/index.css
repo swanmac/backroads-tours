@@ -265,7 +265,7 @@ Services
 ===============
 */
 .services {
-  background: var(--clr-grey-10);
+  background:  #dae2ec;
 }
 .service {
   text-align: center;
