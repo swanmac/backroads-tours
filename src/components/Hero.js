@@ -3,6 +3,7 @@ const Hero = () => {
     <section className='hero' id='home'>
       <div className='hero-banner'>
         <h1>backroads tours</h1>
+        
         <p>
           Experience amazing tours to exciting destinations.
         </p>

@@ -73,6 +73,7 @@ img:not(.nav-logo) {
 
 h1 {
   font-family: "Tribeca";
+  margin-bottom: 30px;
 }
 h2,
 h3,
