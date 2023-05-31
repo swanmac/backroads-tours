@@ -16,9 +16,9 @@ const About = () => {
             Backroads tours was created to enable you to experience the world a natural way. All of of tours allow you to venture to new lands for an exciting escape that you will remember for a lifetime.
           </p>
           <p>
-            Check out our list of exciting destinations. 
+            Check out our list of exciting destinations below. 
           </p>
-          <a href='#about' className='btn'>
+          <a href='#tours' className='btn'>
             read more
           </a>
         </article>
