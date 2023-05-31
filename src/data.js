@@ -70,11 +70,11 @@ export const tours = [
   {
     id: 4,
     image: tour4,
-    date: 'may 5th, 2023',
-    title: 'kenya highlights',
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    date: 'may 5th, 2025',
+    title: 'kenya wildlife safari',
+    info: ` Travel on the outdoor tour of a lifetime. Kenya has everything you would want on an African safari. From towering giraffes to stealth cheetahs, and stunning landscapes.`,
     location: 'kenya',
-    duration: 20,
-    cost: 3300,
+    duration: 22,
+    cost: 4700,
   },
 ];
