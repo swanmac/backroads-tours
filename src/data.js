@@ -41,7 +41,7 @@ export const tours = [
     id: 1,
     image: tour1,
     date: 'august 10th, 2023',
-    title: 'Tibet Adventure',
+    title: 'Experience Tibet',
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: 'china',
     duration: 6,
