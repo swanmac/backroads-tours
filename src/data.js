@@ -2,6 +2,7 @@ import tour1 from './images/tour-1.jpeg';
 import tour2 from './images/tour-2.jpeg';
 import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
+import tour5 from './images/tour-5.jpeg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -76,5 +77,15 @@ export const tours = [
     location: 'kenya',
     duration: 22,
     cost: 4700,
+  },
+  {
+    id: 5,
+    image: tour5,
+    date: 'october 20th, 2025',
+    title: 'tanzania zebra tour',
+    info: ` If you are looking for an amazing place to see wildlife, the Serengeti is the place. Each year in Oct-Nov, a large number of zebras migrate through Tanzania, a sight to behold!`,
+    location: 'tanzania',
+    duration: 22,
+    cost: 4800,
   },
 ];
