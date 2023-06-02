@@ -11,7 +11,7 @@ const Footer = () => {
         })}
       </ul>
       <p className='copyright'>
-        copyright &copy; The Backroads Travel Tours Company
+        copyright &copy; The Backroads Tours Company
         <span id='date'>{new Date().getFullYear()}</span>. all rights reserved
       </p>
     </footer>
