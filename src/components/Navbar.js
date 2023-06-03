@@ -1,18 +1,42 @@
+import { useState } from 'react';
+import { links, social } from '../datas'
 import logo from '../images/logo.svg'
-import { socialLinks } from '../data'
+import { socialLinks, pageLinks } from '../data'
 import PageLinks from './PageLinks'
 import SocialLink from './SocialLink'
 const Navbar = () => {
+  const [showLinks, setShowLinks] = useState(false);
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+  };
+
   return (
     <nav className='navbar'>
       <div className='nav-center'>
         <div className='nav-header'>
           <img src={logo} className='nav-logo' alt='backroads' />
-          <button type='button' className='nav-toggle' id='nav-toggle'>
-            <i className='fas fa-bars'></i>
+          <button className='nav-toggle' id='nav-toggle' onClick={toggleLinks}>
+            <i className='fas fa-bars' />
           </button>
         </div>
-        {/* <!-- left this comment on purpose --> */}
+
+      
+       {showLinks && (
+        <div className='links-container'>
+          <ul className='links'>
+            {links.map((link) => {
+              const {id, url, text} = link;
+              return (
+                <li key={id}>
+                  <a href={url}>{text}</a>
+                </li>
+                
+            );
+            })}
+          </ul>
+       </div>
+
+        )} {/* <!-- left this comment on purpose --> */}
 
         <PageLinks parentClass='nav-links' itemClass='nav-link' />
 
@@ -23,6 +47,6 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
-  )
-}
+  );
+};
 export default Navbar
