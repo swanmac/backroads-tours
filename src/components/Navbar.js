@@ -15,10 +15,16 @@ const Navbar = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <img src={logo} className='nav-logo' alt='backroads' />
-          <button className='nav-toggle' id='nav-toggle' onClick={toggleLinks}>
+          <button className="nav-toggle" id='hide-links' onClick={toggleLinks}>
             <i className='fas fa-bars' />
           </button>
         </div>
+
+        {/* <button className='hide-links' id='nav-toggle' onClick={toggleLinks}>
+            <i className='fas fa-bars' />
+
+          </button>
+        </div> */}
 
       
        {showLinks && (
