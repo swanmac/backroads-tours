@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { links, social } from '../datas'
 import logo from '../images/logo.svg'
 import { socialLinks, pageLinks } from '../data'
@@ -37,6 +37,7 @@ const Navbar = () => {
        </div>
 
         )} {/* <!-- left this comment on purpose --> */}
+    
 
         <PageLinks parentClass='nav-links' itemClass='nav-link' />
 
@@ -47,6 +48,6 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
-  );
-};
+  )
+}
 export default Navbar
